@@ -17,7 +17,7 @@ var HeaderView = Backbone.View.extend({
 
 var FormView = Backbone.View.extend({
   tagName: 'form',
-  className: 'contact-list col-md-offset-4 col-md-5',
+  className: 'contact-list col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-offset-2 col-xs-8',
   template: contactListTemplate,
   events: {
     'submit': 'addContactInfo'
